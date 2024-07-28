@@ -1,12 +1,13 @@
 #include<iostream>
-using std::cout;
 using std::cin;
+using std::cout;
 using std::endl;
-int  add(int a,int b){
-    int c=a+b;
-    return c;
-}
 int main(){
-    int Add=add(12,45);
-    cout<<Add;
+    int num=5;
+    for(int i=0;i<num;i++){
+        for(char A='E'-i;A<='E';A++){
+            cout<<A;
+        }
+        cout<<endl;
+    }
 }
